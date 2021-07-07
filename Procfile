@@ -1,1 +1,1 @@
-worker: python lockie.py
+worker: python main.py
