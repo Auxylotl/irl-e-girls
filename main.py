@@ -151,4 +151,4 @@ async def on_member_join(member):
         role = discord.utils.get(member.guild.roles, name="Verified Members")
         await member.add_roles(role)
 
-bot.run("ODYxNzg5NzM0Njk1MjA2OTcz.YOO6PA.GiyNYtShVUNhyw0cLYVMqviccV0")
+bot.run(os.environ["token"])
